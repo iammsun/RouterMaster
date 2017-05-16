@@ -1,0 +1,28 @@
+apply plugin: 'groovy'
+
+dependencies {
+    compile gradleApi()
+    compile localGroovy()
+}
+
+repositories {
+    mavenCentral()
+}
+
+sourceSets {
+    main {
+        groovy {
+            srcDir 'src/main/groovy'
+        }
+
+        resources {
+            srcDir 'src/main/resources'
+        }
+    }
+}
+
+ext {
+    VERSION_NAME = "$PLUGIN_VERSION"
+    ARTIFACT_ID = 'routermaster-gradle-plugin'
+}
+apply from: "../maven.gradle"

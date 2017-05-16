@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RouterMaster</string>
+    <string name="action_settings">Settings</string>
+    <string name="url_a">//app/a?param=a&amp;int=1</string>
+    <string name="url_b">simon://app/b?param=b&amp;int=2</string>
+    <string name="url_c">simon://app/c?param=c&amp;int=3&amp;json={\"name\":\"怪盗kidou\",\"age\":24,\"emailAddress\":\"ikidou_1@example.com\",\"email\":\"ikidou_2@example.com\",\"email_address\":\"ikidou_3@example.com\"}</string>
+    <string name="url_toast">//toast</string>
+</resources>
